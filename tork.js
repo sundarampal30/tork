@@ -68,7 +68,7 @@ function takeCommand(message) {
     }
 
     else if (message.includes("who are you")) {
-        speak("I am Alshika, a virtual assistant");
+        speak("I am Alexa, a virtual assistant");
     }
 
     else if (message.includes("who created you")) {
@@ -84,7 +84,7 @@ function takeCommand(message) {
         window.open("https://www.youtube.com/");
     }
 
-    else if (message.includes("my friend's name")) {
+    else if (message.includes("my friend name")) {
         speak("Arpit Indrajeet");
     }
 
